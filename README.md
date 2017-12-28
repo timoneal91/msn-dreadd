@@ -4,7 +4,8 @@ To use, create a virtual environment and install `requirements.txt` (needed fox 
 
 Then, simply run:
 
-`$ python3 main.py <absolute_path_to_root>`
+- `$ source ~/.virtualenvs/testenv/bin/activate`
+- `$ python3 main.py <absolute_path_to_root>`
 
 Your output will then be in the supplied root.
 
