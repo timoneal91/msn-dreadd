@@ -1,14 +1,26 @@
 This is a simple application that processes self-admin data.
 
-To use, create a virtual environment and install `requirements.txt` (needed fox XLSX writing).
+To use, create a virtual environment (optional) and install `requirements.txt` (needed fox XLSX writing).
 
 Then, simply run:
 
-- `$ python3 main.py <absolute_path_to_root>`
+- `$ python3 main.py "<absolute_path_to_root>"`
 
 Your output will then be in the supplied root.
 
-To create a virtual env:
+To get the path you should use, use a Terminal to `cd` into it, then use `pwd`:
+
+```
+Joshs-rMBP:~ josh$ cd Desktop/Self-admin\ data/dMSN-hM4Di/
+Joshs-rMBP:dMSN-hM4Di josh$ pwd
+/Users/josh/Desktop/Self-admin data/dMSN-hM4Di
+```
+
+Here we would then use:
+
+- `$ python3 main.py "/Users/josh/Desktop/Self-admin data/dMSN-hM4Di"`
+
+To setup Python 3 on a fresh Mac OS:
 
 - `$ cd ~/Desktop`
 - `$ git clone https://github.com/timoneal91/msn-dreadd.git`
