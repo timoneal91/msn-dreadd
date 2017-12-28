@@ -4,7 +4,6 @@ To use, create a virtual environment and install `requirements.txt` (needed fox 
 
 Then, simply run:
 
-- `$ source ~/.virtualenvs/testenv/bin/activate`
 - `$ python3 main.py <absolute_path_to_root>`
 
 Your output will then be in the supplied root.
@@ -16,6 +15,5 @@ To create a virtual env:
 - `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - `$ echo 'export PATH="$PATH:/usr/local/bin"' >> ~/.bash_profile`
 - `$ brew install python3`
-- `$ virtualenv -p python3 ~/.virtualenvs/msn-dreadd`
-- `$ source ~/.virtualenvs/msn-dreadd/bin/activate`
+- `$ brew postinstall python3`
 - `$ pip3 install -r requirements.txt`
