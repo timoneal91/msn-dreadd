@@ -7,3 +7,10 @@ Then, simply run:
 `$ python3 main.py <absolute_path_to_root>`
 
 Your output will then be in the supplied root.
+
+To create a virtual env:
+
+`$ brew install python3`
+`$ virtualenv -p python3 ~/.virtualenvs/testenv`
+`$ source ~/.virtualenvs/testenv/bin/activate`
+`$ pip3 install -r requirements.txt`
