@@ -10,8 +10,8 @@ Your output will then be in the supplied root.
 
 To create a virtual env:
 
-`$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-`$ brew install python3`
-`$ virtualenv -p python3 ~/.virtualenvs/testenv`
-`$ source ~/.virtualenvs/testenv/bin/activate`
-`$ pip3 install -r requirements.txt`
+- `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- `$ brew install python3`
+- `$ virtualenv -p python3 ~/.virtualenvs/testenv`
+- `$ source ~/.virtualenvs/testenv/bin/activate`
+- `$ pip3 install -r requirements.txt`
