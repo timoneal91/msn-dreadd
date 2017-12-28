@@ -10,6 +10,8 @@ Your output will then be in the supplied root.
 
 To create a virtual env:
 
+- `$ cd ~/Desktop`
+- `$ git clone https://github.com/timoneal91/msn-dreadd.git`
 - `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - `$ brew install python3`
 - `$ virtualenv -p python3 ~/.virtualenvs/testenv`
